@@ -20,10 +20,7 @@ namespace The_Firm
         //Write the values in console
         protected internal void Write()
         {
-            Console.WriteLine(Name);
-            Console.WriteLine(LastName);
-            Console.WriteLine(PhoneNumber);
-            Console.WriteLine(CPR);
+            base.Write();
             Console.WriteLine(EMail);
             Console.WriteLine("");
         }

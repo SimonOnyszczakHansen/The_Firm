@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace The_Firm
 {
-    internal abstract class Manager : Employee//Here we inheret the class
+    internal class Manager : Employee//Here we inheret the class
     {
         private int phoneNumber;//We create our instance variable
         public int PhoneNumber { get { return phoneNumber; } }//Encapsulation
